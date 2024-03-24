@@ -1,8 +1,6 @@
 #include"HandleClient.h"
 using namespace std;
 
-
-
 void HandleClient::init(){
     //1.创建通信的套接字
     cfd = socket(AF_INET, SOCK_STREAM, 0);
@@ -87,9 +85,7 @@ void HandleClient::run(){
         recv(cfd,cookie_ans,sizeof(cookie_ans),0);
         //判断服务器答复是否通过
         string ans_str(cookie_ans);
-        cout << ans_str << endl;
         if(ans_str!="NULL"){//redis查询到了cookie，通过
-            cout << 11 << endl;
             if_login=true;
             login_name=ans_str;
         }
