@@ -1,6 +1,5 @@
 ## Chat_Server_Boost
-
- 	在Linux环境下实现的基于Boost库的聊天服务器，主要实现以下功能：
+ 在Linux环境下实现的基于Boost库的聊天服务器，主要实现以下功能：
 
 - **用户注册和登录**：通过Mysql数据库保存注册的用户和密码。
 - **用户状态记录**：采用Redis生成5分钟的SessionID记录客户端登录的状态，在5分钟内不需要重复验证。
@@ -87,6 +86,6 @@ ___
 
 ___
 
-1. [TinyWebServer](https://github.com/qinguoyi/TinyWebServer?tab=readme-ov-file ：学习连接池设计
+1. https://github.com/qinguoyi/TinyWebServer?tab=readme-ov-file ：学习连接池设计
 2. [chat-project-based-on-ubuntu](https://github.com/CopyDragon/chat-project-based-on-ubuntu)：学习聊天服务器逻辑
 
