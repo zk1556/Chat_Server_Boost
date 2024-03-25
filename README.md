@@ -8,6 +8,13 @@
 - **并发模型**：采用boost线程池实现并发
 
 ## 运行配置及使用
+
+- cmake安装
+
+```
+sudo apt install cmake
+```
+
 - hiredis库安装
 
 ```
@@ -17,11 +24,11 @@ make
 make install
 ```
 
--mysql库安装
+- mysql库安装
 
-'''
+```
 sudo apt install libmysqlclient-dev
-'''
+```
 
 - mysql配置
 
