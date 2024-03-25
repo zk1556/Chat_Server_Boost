@@ -8,6 +8,20 @@
 - **并发模型**：采用boost线程池实现并发
 
 ## 运行配置及使用
+- hiredis库安装
+
+```
+git clone https://github.com/redis/hiredis.git
+cd hiredis
+make
+make install
+```
+
+-mysql库安装
+
+'''
+sudo apt install libmysqlclient-dev
+'''
 
 - mysql配置
 
