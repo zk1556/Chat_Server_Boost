@@ -80,7 +80,7 @@ src
 
 ___
 
-![image-20240324171418362](img\image-20240324171418362.png)
+![image-20240324171418362](https://github.com/zk1556/chat_server_boost/blob/main/img/image-20240324171418362.png)
 
 ## 参考
 
